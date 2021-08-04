@@ -1,0 +1,124 @@
+.buffer {
+    position: relative;
+    background-color: black;
+    height: 4em;
+}
+
+.content-wrapper-about {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-box {
+    border: 1px solid black;
+    color: white;
+    transition: .5s;
+    outline: none;
+    flex: 1;
+    min-width: 181px;
+    background-position: 40%;
+    background-size: cover;
+    border-right: none;
+    line-height: 6;
+}
+
+.header-box:hover {
+    transition: .5s;
+    color: #f60996;
+}
+
+#technology.header-box {
+    background-image: url("../media/technology.jpg");
+    order: 1;
+}
+
+#experience.header-box {
+    background-image: url("../media/experience.jpg");
+    order: 2;
+}
+#innovation.header-box {
+    background-image: url("../media/inovation.jpg");
+    order: 3;
+}
+#reliability.header-box {
+    background-image: url("../media/reliability.jpg");
+    order: 4;
+}
+
+#profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: 12pt;
+}
+
+#profile-image-wrapper {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-photo {
+    margin-top: 20px;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+#profile-image-wrapper p {
+    text-align: left;
+    flex: 1;
+    order: 2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tech-stack {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.about-text-box {
+    margin: 2em;
+}
+
+
+@media only screen and (min-width: 728px) {
+    .content-wrapper-about {
+        flex-flow: row;
+    }
+
+    .header-box {
+        height: 6em;
+        font-size: 1.5em;
+    }
+
+    #profile-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #profile-image-wrapper {
+        flex: 1;
+    }
+
+    .profile-photo {
+        width: 15em;
+        height: 15em;
+    }
+
+    #tech-stack {
+        flex: 1;
+        /*display: flex;*/
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
+        /*font-size: 12pt;*/
+        /*justify-content: space-between;*/
+        /*margin: 4em;*/
+    }
+
+}
+

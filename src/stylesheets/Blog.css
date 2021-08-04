@@ -1,0 +1,13 @@
+.content-wrapper-blog {
+    width: 100vw;
+    background-color: #6376b7;
+    display: flex;
+    justify-content: center;
+}
+
+#article-wrapper {
+    justify-content: center;
+    display: flex;
+    width: 85vw;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,103 @@
+#home-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+iframe.home-iframe {
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+#welcome-box {
+    position: absolute;
+    color: white;
+    width: 25em;
+    height: 25em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(62, 62, 81, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#hello-text {
+    position: relative;
+    top: .5em;
+    font-size: 2em;
+}
+
+#welcome-text {
+    user-select: none;
+}
+
+#my-name-is {
+    position: relative;
+    top: 2em;
+}
+
+#full-name {
+    color: #3f73fc;
+}
+
+#my-portfolio-button {
+    width: 100%;
+    position: absolute;
+    font-size: 2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+    border-radius: 1%;
+}
+
+#my-portfolio-button:hover {
+    transition: .5s;
+    background-color: #5a2bbd;
+
+}
+
+@media only screen and (min-width: 728px) {
+
+    #welcome-box {
+        width: 35em;
+        height: 35em;
+    }
+
+    #hello-text {
+        font-size: 4em;
+    }
+
+    #my-name-is {
+        top: 3em;
+        font-size: 1.5em;
+    }
+
+    #full-name {
+        color: #5c87f5;
+    }
+
+    #my-portfolio-button {
+        position: absolute;
+        font-size: 2em;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: .5s;
+        border-radius: 1%;
+    }
+
+    #my-portfolio-button:hover {
+        transition: .5s;
+        background-color: #5a2bbd;
+
+    }
+}

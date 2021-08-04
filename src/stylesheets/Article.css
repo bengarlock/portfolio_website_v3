@@ -1,0 +1,20 @@
+.article {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+    width: 8em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585858;
+    color: #ffffff;
+    padding: 3em;
+}
+
+.article:hover {
+    background-color: #6376b7;
+    transition: .5s;
+}
+
