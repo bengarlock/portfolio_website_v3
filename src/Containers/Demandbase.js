@@ -13,7 +13,7 @@ class Demandbase extends React.Component {
                     t.src = s;
                     fs.parentNode.insertBefore(t,fs);
             })
-            (window,document,'script','https://tag.demandbase.com/d409891be0b1d71b.min.js','demandbase_js_lib'))
+            (window,document,'script','https://tag.demandbase.com/edfc31da3c22de40.min.js','demandbase_js_lib'))
     }
 
     render() {
