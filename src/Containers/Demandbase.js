@@ -15,7 +15,16 @@ class Demandbase extends React.Component {
     render() {
         return (
             <div className="container">
-                {this.renderDemandbase()}
+                {
+
+
+                        (function(d,b,a,s,e){var t=b.createElement(a),
+                        fs=b.getElementsByTagName(a)[0];t.async=1;t.id=e;t.src=s;
+                        fs.parentNode.insertBefore(t,fs);})
+                        (window,document,'script','https://tag.demandbase.com/edfc31da3c22de40.min.js','demandbase_js_lib')
+
+
+                }
                 <h1>Welcome</h1>
                 <img src="https://alchemyinsurance.com/wp-content/uploads/2018/06/lightbulb.jpg" alt="light-bulb" />
             </div>
