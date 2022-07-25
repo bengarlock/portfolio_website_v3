@@ -12,8 +12,8 @@ class Home extends React.Component {
 
     render() {
         return (
-            <>
-                    <Iframe id="home-iframe" title="galaxy" source={"https://bengarlock.com/galaxy/"} />
+            <div>
+                <Iframe id="home-iframe" title="galaxy" source={"https://bengarlock.com/galaxy/"} />
                     <div id="welcome-box">
                         <div id="welcome-text">
                             <p id="hello-text">Hello.</p>
@@ -26,11 +26,9 @@ class Home extends React.Component {
                             </Link>
                         </div>
                     </div>
-            </>
-        );
+            </div>
+        )
     }
-
-
-};
+}
 
 export default Home;

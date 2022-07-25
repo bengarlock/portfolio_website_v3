@@ -85,13 +85,13 @@ class Navbar extends React.Component {
                     <div className="menu-line"/>
 
                     {this.state.menu ? (
-                        <>
+                        <div>
                             <div id="menu-dropdown-wrapper">
                                 {this.renderLinks()}
                             </div>
                             <div id="menu-collapse-wrapper" onClick={this.toggleMenu}>
                             </div>
-                        </>
+                        </div>
                     ) : null}
                 </div>
                 <div id="fullscreen-nav">
