@@ -13,7 +13,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <Iframe id="home-iframe" title="galaxy" source={window.location.url + "/galaxy/"} />
+                <Iframe id="home-iframe" title="galaxy" source={"https://bengarlock.com/galaxy/"} />
                     <div id="welcome-box">
                         <div id="welcome-text">
                             <p id="hello-text">Hello.</p>
